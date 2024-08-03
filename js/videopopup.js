@@ -47,7 +47,7 @@
 
         });
         $("#closer_videopopup").on('click', function () {
-            if(settings.pausevideo==false){
+            if(settings.pausevideo==true){
                     $('#'+settings.idvideo+'').trigger('pause');
                 }else{
                     stopVideo();
